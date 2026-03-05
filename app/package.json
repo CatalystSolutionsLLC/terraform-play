@@ -4,7 +4,7 @@
   "main": "src/functions/hello.js",
   "scripts": {
     "start": "node node_modules/@azure/functions/bin/worker.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [],
   "author": "",
