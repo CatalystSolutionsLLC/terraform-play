@@ -1,0 +1,13 @@
+# Terragrunt cache
+**/.terragrunt-cache
+**/.terraform
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Node
+node_modules/
+app/deploy.zip
+
+# OS
+.DS_Store
