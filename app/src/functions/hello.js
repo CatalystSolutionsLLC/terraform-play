@@ -12,7 +12,8 @@ app.http('hello', {
             body: JSON.stringify({
                 message: `Hello from ${environment}!`,
                 timestamp: new Date().toISOString(),
-                environment: environment
+                environment: environment,
+                version: "2.0"
             })
         };
     }
